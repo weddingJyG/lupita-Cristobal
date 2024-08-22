@@ -1349,7 +1349,7 @@ body {
 
     .section-1 {
         height: 100vh;
-        background: url("../img/section1/slide2.JPG") no-repeat;
+        background: url("../img/section1/slide2.jpg") no-repeat;
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
@@ -1405,7 +1405,7 @@ body {
 @media only screen and (max-width: 576px) {
     .section-1 {
         height: 100vh;
-        background: url("../img/section1/slide2.JPG") no-repeat;
+        background: url("../img/section1/slide2.jpg") no-repeat;
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
