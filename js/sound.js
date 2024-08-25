@@ -17,3 +17,25 @@ boton.addEventListener("click", function(){
 			sound = false;
 			} 
     });
+
+	function iniciarPagina() {
+		var pantallaInicio = document.querySelector(".pantalla-inicial");
+		var audio = new Audio('sound/audio3.mp3');
+        audio.play();
+		pantallaInicio.style.display = "none";
+        //$("#modal").modal('hide');
+
+
+
+		/*var conAudio = document.querySelector(".iniciar-audio");
+		
+		pantallaInicio.classList.add("pantalla-inicial-cerrada");
+		document.body.removeAttribute("style");
+		setTimeout(function() {
+			pantallaInicio.style.display = "none";
+		}, 1600);
+	
+		if(conAudio) {
+			document.getElementById("musicaFondo").play();
+		}*/
+	}
