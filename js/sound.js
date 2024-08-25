@@ -21,6 +21,7 @@ boton.addEventListener("click", function(){
 	function iniciarPagina() {
 		var pantallaInicio = document.querySelector(".pantalla-inicial");
 		var audio = new Audio('sound/audio3.mp3');
+		document.body.removeAttribute("style");
         audio.play();
 		pantallaInicio.style.display = "none";
         //$("#modal").modal('hide');
