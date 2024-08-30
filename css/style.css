@@ -241,11 +241,11 @@ body {
 
 
 .section-2 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     color: #9583b6;
     font-weight: bold;
 }
